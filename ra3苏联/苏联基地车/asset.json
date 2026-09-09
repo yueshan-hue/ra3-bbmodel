@@ -1,0 +1,60 @@
+{
+  "name": "苏联基地车",
+  "category": "载具",
+  "file": "C:\\Users\\王翔\\Documents\\Codex\\2026-09-08\\wiki-skill-x20-2\\outputs\\苏联单位返工版\\载具\\苏联基地车\\苏联基地车.bbmodel",
+  "cubes": 263,
+  "groups": 81,
+  "uv_faces": 1578,
+  "size": 1024,
+  "animations": [
+    {
+      "name": "待机",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "陆地行驶",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "水面移动",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "展开建造厂",
+      "length": 2.5,
+      "loop": "hold"
+    },
+    {
+      "name": "建造厂运行",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "收起建造厂",
+      "length": 2.5,
+      "loop": "once"
+    }
+  ],
+  "camera": {
+    "position": [
+      -53,
+      42,
+      -69
+    ],
+    "target": [
+      0,
+      10,
+      0
+    ],
+    "zoom": 0.33
+  },
+  "remarks": [
+    "按实机六个短履带舱、巨大卵形机身、侧舱圆盘和前格栅重建。",
+    "展开动作使用同一套壳体、核心、吊架和线圈，未叠放另一辆完整基地车。",
+    "总计263个方块，包含隐藏特效；统一上限300。轮毂、线圈和端口细节以贴图表达。",
+    "以Wiki实机外形为主，概念图仅补足遮挡结构；动画时长为模型演示调整值。逐面独立UV，PNG内嵌。"
+  ]
+}

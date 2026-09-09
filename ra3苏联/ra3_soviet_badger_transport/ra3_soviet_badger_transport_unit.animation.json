@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ra3_soviet_badger.cruise_prop_loop": {
+			"loop": true,
+			"animation_length": 1.8,
+			"bones": {
+				"unit_badger_root": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4583": [0, 0.16, 0],
+						"0.9167": [0, 0, 0],
+						"1.3333": [0, -0.12, 0],
+						"1.7917": [0, 0, 0]
+					}
+				},
+				"badger_engines": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4583": [0, 0, 180],
+						"0.9167": [0, 0, 360],
+						"1.3333": [0, 0, 540],
+						"1.7917": [0, 0, 720]
+					}
+				}
+			}
+		},
+		"animation.ra3_soviet_badger.cargo_drop": {
+			"animation_length": 3,
+			"bones": {
+				"unit_badger_root": {
+					"position": {
+						"0.0": [0, 8, -24],
+						"1.5": [0, 8, 0],
+						"3.0": [0, 8, 24]
+					}
+				},
+				"badger_payload_ramp": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0833": [0, 0, 0],
+						"1.5": [35, 0, 0],
+						"2.2083": [35, 0, 0],
+						"3.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.ra3_soviet_badger.bombing_run": {
+			"animation_length": 2.8,
+			"bones": {
+				"unit_badger_root": {
+					"position": {
+						"0.0": [0, 6, -22],
+						"1.4167": [0, 6, 0],
+						"2.7917": [0, 6, 22]
+					}
+				},
+				"badger_payload_ramp": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.2083": [0, 0, 0],
+						"1.7917": [0, -5, 0],
+						"2.7917": [0, -11, 0]
+					}
+				}
+			}
+		}
+	}
+}

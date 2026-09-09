@@ -1,0 +1,149 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ra3_soviet_kirov.slow_blimp_bob": {
+			"loop": true,
+			"animation_length": 3.6,
+			"bones": {
+				"unit_kirov_root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.7917": {
+							"pre": [0, 0, 1.2],
+							"post": [0, 0, 1.2],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5833": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.9167": {
+							"pre": [0, 0.45, 0],
+							"post": [0, 0.45, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.7083": {
+							"post": [0, -0.35, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5833": [0, 0, 0]
+					}
+				},
+				"kirov_tail_planes": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.7917": [0, -1.5, 0],
+						"3.5833": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.ra3_soviet_kirov.side_propellers_idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"kirov_prop_left_front": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 360],
+						"1.0": [0, 0, 720],
+						"1.5": [0, 0, 1080],
+						"2.0": [0, 0, 1440]
+					}
+				},
+				"kirov_prop_right_front": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -300],
+						"1.0": [0, 0, -600],
+						"1.5": [0, 0, -900],
+						"2.0": [0, 0, -1200]
+					}
+				},
+				"kirov_prop_left_mid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -300],
+						"1.0": [0, 0, -600],
+						"1.5": [0, 0, -900],
+						"2.0": [0, 0, -1200]
+					}
+				},
+				"kirov_prop_right_mid": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 360],
+						"1.0": [0, 0, 720],
+						"1.5": [0, 0, 1080],
+						"2.0": [0, 0, 1440]
+					}
+				},
+				"kirov_prop_left_rear": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 360],
+						"1.0": [0, 0, 720],
+						"1.5": [0, 0, 1080],
+						"2.0": [0, 0, 1440]
+					}
+				},
+				"kirov_prop_right_rear": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -300],
+						"1.0": [0, 0, -600],
+						"1.5": [0, 0, -900],
+						"2.0": [0, 0, -1200]
+					}
+				}
+			}
+		},
+		"animation.ra3_soviet_kirov.gastroburner_push": {
+			"loop": true,
+			"animation_length": 2.4,
+			"bones": {
+				"kirov_rear_gastroburners": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.3333": [1.18, 1.18, 1.55],
+						"0.7083": [1, 1, 1],
+						"1.25": [1.25, 1.2, 1.75],
+						"2.4167": [1, 1, 1]
+					}
+				},
+				"unit_kirov_root": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.2083": [0, 0, -2],
+						"2.4167": [0, 0, -4]
+					}
+				}
+			}
+		},
+		"animation.ra3_soviet_kirov.bombing_run_bay_drop": {
+			"animation_length": 3,
+			"bones": {
+				"unit_kirov_root": {
+					"position": {
+						"0.0": [0, 0, 10],
+						"1.5": [0, 0, 0],
+						"3.0": [0, 0, -12]
+					}
+				},
+				"kirov_suspended_bomb_bay": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0417": [0, 0, 0],
+						"1.6667": [0, -4.5, 0],
+						"2.2917": [0, -10, 0],
+						"3.0": [0, -15, 0]
+					}
+				}
+			}
+		}
+	}
+}

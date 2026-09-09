@@ -1,0 +1,55 @@
+{
+  "name": "史普尼克勘探车",
+  "category": "载具",
+  "file": "C:\\Users\\王翔\\Documents\\Codex\\2026-09-08\\wiki-skill-x20-2\\outputs\\苏联单位返工版\\载具\\史普尼克勘探车\\史普尼克勘探车.bbmodel",
+  "cubes": 135,
+  "groups": 20,
+  "uv_faces": 810,
+  "size": 1024,
+  "animations": [
+    {
+      "name": "待机",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "陆地行驶",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "水面航行",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "部署前线基地",
+      "length": 2,
+      "loop": "hold"
+    },
+    {
+      "name": "前线基地运行",
+      "length": 2,
+      "loop": "loop"
+    }
+  ],
+  "camera": {
+    "position": [
+      -40,
+      34,
+      -54
+    ],
+    "target": [
+      0,
+      7,
+      0
+    ],
+    "zoom": 0.44
+  },
+  "remarks": [
+    "球形分瓣车壳、六轮、外扩支座与升起的前线信标。实机中的其他新建筑不并入本模型。",
+    "史普尼克无武装；部署是建立前线基地，不添加坦克炮。",
+    "总计135个方块，包含隐藏特效；统一上限300。轮毂、线圈和端口细节以贴图表达。",
+    "以Wiki实机外形为主，概念图仅补足遮挡结构；动画时长为模型演示调整值。逐面独立UV，PNG内嵌。"
+  ]
+}

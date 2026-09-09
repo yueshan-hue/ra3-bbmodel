@@ -1,0 +1,59 @@
+{
+  "name": "战熊",
+  "category": "步兵",
+  "file": "C:\\Users\\王翔\\Documents\\Codex\\2026-09-08\\wiki-skill-x20-2\\outputs\\苏联单位返工版\\步兵\\战熊\\战熊.bbmodel",
+  "cubes": 120,
+  "groups": 14,
+  "uv_faces": 720,
+  "size": 1024,
+  "animations": [
+    {
+      "name": "警戒待机",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "四足奔跑",
+      "length": 0.9,
+      "loop": "loop"
+    },
+    {
+      "name": "游泳",
+      "length": 1.6,
+      "loop": "loop"
+    },
+    {
+      "name": "扑咬攻击",
+      "length": 1.5,
+      "loop": "once"
+    },
+    {
+      "name": "起身增幅怒吼",
+      "length": 3.4,
+      "loop": "once"
+    },
+    {
+      "name": "死亡",
+      "length": 1.8,
+      "loop": "hold"
+    }
+  ],
+  "camera": {
+    "position": [
+      -37,
+      29,
+      -50
+    ],
+    "target": [
+      0,
+      10,
+      0
+    ],
+    "zoom": 0.45
+  },
+  "remarks": [
+    "棕熊肩峰、长吻、圆耳、短尾和四足比例；前肩红甲、背部护甲与头部眉甲。怒吼由前躯绕后髋抬起，后脚留在地面，不替换整套站立模型。",
+    "总计120个方块，包含隐藏特效；统一上限300。轮毂、线圈和端口细节以贴图表达。",
+    "以Wiki实机外形为主，概念图仅补足遮挡结构；动画时长为模型演示调整值。逐面独立UV，PNG内嵌。"
+  ]
+}

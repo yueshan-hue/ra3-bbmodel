@@ -1,0 +1,55 @@
+{
+  "name": "镰刀",
+  "category": "载具",
+  "file": "C:\\Users\\王翔\\Documents\\Codex\\2026-09-08\\wiki-skill-x20-2\\outputs\\苏联单位返工版\\载具\\镰刀\\镰刀.bbmodel",
+  "cubes": 143,
+  "groups": 19,
+  "uv_faces": 858,
+  "size": 1024,
+  "animations": [
+    {
+      "name": "待机",
+      "length": 2.4,
+      "loop": "loop"
+    },
+    {
+      "name": "四足行走",
+      "length": 1.2,
+      "loop": "loop"
+    },
+    {
+      "name": "三向攻击",
+      "length": 1.2,
+      "loop": "loop"
+    },
+    {
+      "name": "跳跃突袭",
+      "length": 2,
+      "loop": "once"
+    },
+    {
+      "name": "受击倒伏",
+      "length": 1.4,
+      "loop": "hold"
+    }
+  ],
+  "camera": {
+    "position": [
+      -43,
+      34,
+      -56
+    ],
+    "target": [
+      0,
+      9,
+      0
+    ],
+    "zoom": 0.42
+  },
+  "remarks": [
+    "四足机械结构和三向独立武器座按Wiki及实机核对。",
+    "跳跃依次下蹲、腾空、收腿、着地缓冲。",
+    "总计143个方块，包含隐藏特效；统一上限300。轮毂、线圈和端口细节以贴图表达。",
+    "以Wiki实机外形为主，概念图仅补足遮挡结构；动画时长为模型演示调整值。逐面独立UV，PNG内嵌。"
+  ]
+}

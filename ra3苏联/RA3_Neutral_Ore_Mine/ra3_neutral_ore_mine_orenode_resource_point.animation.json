@@ -1,0 +1,1299 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"动画_中立矿场_矿脉待机": {
+			"loop": true,
+			"animation_length": 3.2,
+			"override_previous_animation": true,
+			"bones": {
+				"动画骨_矿晶脉冲": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.7917": {
+							"post": [0, 0.22, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.4167": {
+							"post": [0, 0.16, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.7917": {
+							"post": [1.04, 1.1, 1.04],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [0.98, 0.98, 0.98],
+							"lerp_mode": "catmullrom"
+						},
+						"2.4167": {
+							"post": [1.03, 1.07, 1.03],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_状态灯": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.3333": {"pre": [1, 1, 1], "post": [1.22, 1.22, 1.22]},
+						"0.625": {"pre": [1.22, 1.22, 1.22], "post": [1, 1, 1]},
+						"1.7083": {"pre": [1, 1, 1], "post": [1.18, 1.18, 1.18]},
+						"2.0417": {"pre": [1.18, 1.18, 1.18], "post": [1, 1, 1]},
+						"3.2083": {"pre": [1, 1, 1], "post": [1, 1, 1]}
+					}
+				},
+				"动画骨_机械臂_旋转台": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [0, -2.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_主大臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [-1.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前小臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [1.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_抓斗头": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [0, 0.3, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_装矿矿流": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"3.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_机械臂_夹持矿石": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"3.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				}
+			}
+		},
+		"动画_中立矿场_机械臂抓矿循环": {
+			"loop": true,
+			"animation_length": 4.8,
+			"override_previous_animation": true,
+			"bones": {
+				"动画骨_机械臂_旋转台": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.7917": {
+							"post": [0, 4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [0, 4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.4583": {
+							"post": [0, 18, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5417": {
+							"post": [0, 18, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_主大臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [-5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.75": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5": {
+							"post": [8, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前小臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [7, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.75": {
+							"post": [-4, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5": {
+							"post": [-14, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_抓斗头": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.75": {
+							"post": [-6, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5417": {
+							"post": [-30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.3333": {
+							"post": [-42, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.75": {
+							"post": [0, 3, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5417": {
+							"post": [0, 4, -16],
+							"lerp_mode": "catmullrom"
+						},
+						"3.3333": {
+							"post": [0, 4, -16],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_左抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": {
+							"pre": [0, 0, -18],
+							"post": [0, 0, -18],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": [0, 0, -18],
+						"3.5": {
+							"pre": [0, 0, 10],
+							"post": [0, 0, 10],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_右抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": {
+							"pre": [0, 0, 18],
+							"post": [0, 0, 18],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": [0, 0, 18],
+						"3.5": {
+							"pre": [0, 0, -10],
+							"post": [0, 0, -10],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": {
+							"pre": [18, 0, 0],
+							"post": [18, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": [18, 0, 0],
+						"3.5": {
+							"pre": [-12, 0, 0],
+							"post": [-12, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_后抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.25": {
+							"pre": [-18, 0, 0],
+							"post": [-18, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": [-18, 0, 0],
+						"3.5": {
+							"pre": [12, 0, 0],
+							"post": [12, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_夹持矿石": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"1.25": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]},
+						"1.2917": {"pre": [0.001, 0.001, 0.001], "post": [1, 1, 1]},
+						"3.4583": {"pre": [1, 1, 1], "post": [1, 1, 1]},
+						"3.5": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"4.7917": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_装矿矿流": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"3.3333": {"pre": [0, 0, 0], "post": [0, 0, 0]},
+						"3.5833": {"pre": [0, 0, 0], "post": [0, -1.1, -8]},
+						"3.9167": [0, -2, -17],
+						"4.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"3.3333": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]},
+						"3.4167": {"pre": [0.001, 0.001, 0.001], "post": [1.05, 1.05, 1.05]},
+						"3.5833": {"pre": [1.05, 1.05, 1.05], "post": [1.15, 1.15, 1.15]},
+						"3.9167": {"pre": [1.15, 1.15, 1.15], "post": [1, 1, 1]},
+						"4.0": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"4.7917": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_矿晶脉冲": {
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [1.07, 1.13, 1.07],
+							"lerp_mode": "catmullrom"
+						},
+						"1.9167": {
+							"post": [0.94, 0.96, 0.94],
+							"lerp_mode": "catmullrom"
+						},
+						"4.7917": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_状态灯": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"1.2083": {"pre": [1, 1, 1], "post": [1.25, 1.25, 1.25]},
+						"1.4583": {"pre": [1.25, 1.25, 1.25], "post": [1, 1, 1]},
+						"3.2917": {"pre": [1, 1, 1], "post": [1.35, 1.35, 1.35]},
+						"3.5833": {"pre": [1.35, 1.35, 1.35], "post": [1, 1, 1]},
+						"4.7917": {"pre": [1, 1, 1], "post": [1, 1, 1]}
+					}
+				}
+			}
+		},
+		"动画_中立矿场_采矿车装矿": {
+			"animation_length": 6.4,
+			"override_previous_animation": true,
+			"bones": {
+				"采矿车接口_导轨与坡道": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": {"pre": [0, 0, 0], "post": [0, 0, 0]},
+						"1.2917": {"pre": [0, 0, 0], "post": [0, -0.08, -0.12]},
+						"1.5833": {"pre": [0, -0.08, -0.12], "post": [0, 0.1, 0.08]},
+						"2.0": {"pre": [0, 0.1, 0.08], "post": [0, 0, 0]},
+						"6.4167": {"pre": [0, 0, 0], "post": [0, 0, 0]}
+					}
+				},
+				"动画骨_装载闸门": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1667": {
+							"post": [9, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.9167": {
+							"post": [9, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1667": {
+							"post": [0, -0.8, -1.4],
+							"lerp_mode": "catmullrom"
+						},
+						"4.9167": {
+							"post": [0, -0.8, -1.4],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_旋转台": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.4167": {
+							"post": [0, 4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.2917": {
+							"post": [0, 4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.1667": {
+							"post": [0, 18, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.4583": {
+							"post": [0, 18, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_主大臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [-5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.3333": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": {
+							"post": [8, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_前小臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [7, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.3333": {
+							"post": [-4, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": {
+							"post": [-14, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_抓斗头": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.3333": {
+							"post": [-6, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": {
+							"post": [-30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.2083": {
+							"post": [-42, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.3333": {
+							"post": [0, 3, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.25": {
+							"post": [0, 4, -16],
+							"lerp_mode": "catmullrom"
+						},
+						"4.2083": {
+							"post": [0, 4, -16],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_左抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.7083": {
+							"pre": [0, 0, -18],
+							"post": [0, 0, -18],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0417": [0, 0, -18],
+						"4.2917": {
+							"pre": [0, 0, 10],
+							"post": [0, 0, 10],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_右抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.7083": {
+							"pre": [0, 0, 18],
+							"post": [0, 0, 18],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0417": [0, 0, 18],
+						"4.2917": {
+							"pre": [0, 0, -10],
+							"post": [0, 0, -10],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.7083": {
+							"pre": [18, 0, 0],
+							"post": [18, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0417": [18, 0, 0],
+						"4.2917": {
+							"pre": [-12, 0, 0],
+							"post": [-12, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_后抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.7083": {
+							"pre": [-18, 0, 0],
+							"post": [-18, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0417": [-18, 0, 0],
+						"4.2917": {
+							"pre": [12, 0, 0],
+							"post": [12, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_夹持矿石": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"1.7083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]},
+						"1.75": {"pre": [0.001, 0.001, 0.001], "post": [1, 1, 1]},
+						"4.25": {"pre": [1, 1, 1], "post": [1, 1, 1]},
+						"4.2917": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"6.4167": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_装矿矿流": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"4.1667": {"pre": [0, 0, 0], "post": [0, 0, 0]},
+						"4.4583": {"pre": [0, 0, 0], "post": [0, -1.1, -8]},
+						"4.9167": [0, -2, -17],
+						"5.0": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"4.1667": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]},
+						"4.2083": {"pre": [0.001, 0.001, 0.001], "post": [1.05, 1.05, 1.05]},
+						"4.4583": {"pre": [1.05, 1.05, 1.05], "post": [1.15, 1.15, 1.15]},
+						"4.9167": {"pre": [1.15, 1.15, 1.15], "post": [1, 1, 1]},
+						"5.0": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"6.4167": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_矿晶脉冲": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [0, 0.3, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.7917": {
+							"post": [0, -0.25, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5833": {
+							"post": [1.1, 1.16, 1.1],
+							"lerp_mode": "catmullrom"
+						},
+						"2.7917": {
+							"post": [0.93, 0.94, 0.93],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_状态灯": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.7083": {"pre": [1, 1, 1], "post": [1.3, 1.3, 1.3]},
+						"1.0": {"pre": [1.3, 1.3, 1.3], "post": [1, 1, 1]},
+						"3.9167": {"pre": [1, 1, 1], "post": [1.4, 1.4, 1.4]},
+						"4.25": {"pre": [1.4, 1.4, 1.4], "post": [1, 1, 1]},
+						"4.7083": {"pre": [1, 1, 1], "post": [1.35, 1.35, 1.35]},
+						"5.0": {"pre": [1.35, 1.35, 1.35], "post": [1, 1, 1]},
+						"6.4167": {"pre": [1, 1, 1], "post": [1, 1, 1]}
+					}
+				}
+			}
+		},
+		"动画_中立矿场_矿脉耗尽提示": {
+			"animation_length": 3.2,
+			"override_previous_animation": true,
+			"bones": {
+				"动画骨_矿晶脉冲": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [0, -4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, -8, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [0.55, 0.42, 0.55],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0.18, 0.12, 0.18],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_左矿坑护盖": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [-14, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_右矿坑护盖": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [14, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_状态灯": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"0.5": {"pre": [0.001, 0.001, 0.001], "post": [1, 1, 1]},
+						"0.75": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"1.0": {"pre": [0.001, 0.001, 0.001], "post": [1, 1, 1]},
+						"1.25": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"3.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_机械臂_旋转台": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_主大臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [-8, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前小臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [8, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_左抓爪": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, -12],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_右抓爪": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [0, 0, 12],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前抓爪": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [12, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_后抓爪": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.2083": {
+							"post": [-12, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_装矿矿流": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"3.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_机械臂_夹持矿石": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"3.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				}
+			}
+		},
+		"动画_中立矿场_完整采矿流程演示": {
+			"animation_length": 7.2,
+			"override_previous_animation": true,
+			"bones": {
+				"动画骨_矿晶脉冲": {
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.4167": {
+							"post": [0, 0.25, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.0833": {
+							"post": [0, -0.25, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"1.4167": {
+							"post": [1.08, 1.14, 1.08],
+							"lerp_mode": "catmullrom"
+						},
+						"3.0833": {
+							"post": [0.94, 0.96, 0.94],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"采矿车接口_导轨与坡道": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"4.0": {"pre": [0, 0, 0], "post": [0, -0.08, -0.12]},
+						"4.3333": {"pre": [0, -0.08, -0.12], "post": [0, 0.1, 0.08]},
+						"4.7083": {"pre": [0, 0.1, 0.08], "post": [0, 0, 0]},
+						"7.2083": {"pre": [0, 0, 0], "post": [0, 0, 0]}
+					}
+				},
+				"动画骨_装载闸门": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.0833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5833": {
+							"post": [9, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.4167": {
+							"post": [9, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.0833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.0833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5833": {
+							"post": [0, -0.8, -1.4],
+							"lerp_mode": "catmullrom"
+						},
+						"5.4167": {
+							"post": [0, -0.8, -1.4],
+							"lerp_mode": "catmullrom"
+						},
+						"6.0833": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_旋转台": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.2917": {
+							"post": [0, 4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5833": {
+							"post": [0, 4, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5417": {
+							"post": [0, 18, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.0": {
+							"post": [0, 18, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_主大臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [-5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5833": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5417": {
+							"post": [8, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_前小臂": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [7, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5833": {
+							"post": [-4, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5417": {
+							"post": [-14, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_抓斗头": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5833": {
+							"post": [-6, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5417": {
+							"post": [-30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.75": {
+							"post": [-42, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5417": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"2.5833": {
+							"post": [0, 3, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"3.5417": {
+							"post": [0, 4, -16],
+							"lerp_mode": "catmullrom"
+						},
+						"4.75": {
+							"post": [0, 4, -16],
+							"lerp_mode": "catmullrom"
+						},
+						"6.4167": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": [0, 0, 0]
+					}
+				},
+				"动画骨_机械臂_左抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.75": {
+							"pre": [0, 0, -18],
+							"post": [0, 0, -18],
+							"lerp_mode": "catmullrom"
+						},
+						"4.5833": [0, 0, -18],
+						"4.8333": {
+							"pre": [0, 0, 10],
+							"post": [0, 0, 10],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_右抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.75": {
+							"pre": [0, 0, 18],
+							"post": [0, 0, 18],
+							"lerp_mode": "catmullrom"
+						},
+						"4.5833": [0, 0, 18],
+						"4.8333": {
+							"pre": [0, 0, -10],
+							"post": [0, 0, -10],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_前抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.75": {
+							"pre": [18, 0, 0],
+							"post": [18, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.5833": [18, 0, 0],
+						"4.8333": {
+							"pre": [-12, 0, 0],
+							"post": [-12, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_后抓爪": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.75": {
+							"pre": [-18, 0, 0],
+							"post": [-18, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.5833": [-18, 0, 0],
+						"4.8333": {
+							"pre": [12, 0, 0],
+							"post": [12, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.2083": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"动画骨_机械臂_夹持矿石": {
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"1.75": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]},
+						"1.7917": {"pre": [0.001, 0.001, 0.001], "post": [1, 1, 1]},
+						"4.7917": {"pre": [1, 1, 1], "post": [1, 1, 1]},
+						"4.8333": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"7.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_装矿矿流": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"4.7083": {"pre": [0, 0, 0], "post": [0, 0, 0]},
+						"5.0": {"pre": [0, 0, 0], "post": [0, -1.1, -8]},
+						"5.4583": [0, -2, -17],
+						"5.5417": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.001, 0.001, 0.001],
+						"4.7083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]},
+						"4.75": {"pre": [0.001, 0.001, 0.001], "post": [1.05, 1.05, 1.05]},
+						"5.0": {"pre": [1.05, 1.05, 1.05], "post": [1.15, 1.15, 1.15]},
+						"5.4583": {"pre": [1.15, 1.15, 1.15], "post": [1, 1, 1]},
+						"5.5417": {"pre": [1, 1, 1], "post": [0.001, 0.001, 0.001]},
+						"7.2083": {"pre": [0.001, 0.001, 0.001], "post": [0.001, 0.001, 0.001]}
+					}
+				},
+				"动画骨_状态灯": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.7917": {"pre": [1, 1, 1], "post": [1.25, 1.25, 1.25]},
+						"1.0833": {"pre": [1.25, 1.25, 1.25], "post": [1, 1, 1]},
+						"4.4167": {"pre": [1, 1, 1], "post": [1.4, 1.4, 1.4]},
+						"4.7917": {"pre": [1.4, 1.4, 1.4], "post": [1, 1, 1]},
+						"5.2083": {"pre": [1, 1, 1], "post": [1.35, 1.35, 1.35]},
+						"5.5417": {"pre": [1.35, 1.35, 1.35], "post": [1, 1, 1]},
+						"7.2083": {"pre": [1, 1, 1], "post": [1, 1, 1]}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "牛蛙",
+  "category": "载具",
+  "file": "C:\\Users\\王翔\\Documents\\Codex\\2026-09-08\\wiki-skill-x20-2\\outputs\\苏联单位返工版\\载具\\牛蛙\\牛蛙.bbmodel",
+  "cubes": 203,
+  "groups": 73,
+  "uv_faces": 1218,
+  "size": 1024,
+  "animations": [
+    {
+      "name": "待机",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "陆地行驶",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "下水收履带",
+      "length": 1.3,
+      "loop": "hold"
+    },
+    {
+      "name": "水面航行",
+      "length": 3,
+      "loop": "loop"
+    },
+    {
+      "name": "对空射击",
+      "length": 1.2,
+      "loop": "loop"
+    },
+    {
+      "name": "人间大炮弹射",
+      "length": 1.4,
+      "loop": "once"
+    }
+  ],
+  "camera": {
+    "position": [
+      -44,
+      38,
+      -61
+    ],
+    "target": [
+      0,
+      8,
+      0
+    ],
+    "zoom": 0.39
+  },
+  "remarks": [
+    "按实机分段履带、船形车身、鲨齿涂装、前方网罩机炮和后方空心弹射炮筒重建。",
+    "运输步兵及降落伞属于独立乘员实体，不在牛蛙本体内重复添加。",
+    "总计203个方块，包含隐藏特效；统一上限300。轮毂、线圈和端口细节以贴图表达。",
+    "以Wiki实机外形为主，概念图仅补足遮挡结构；动画时长为模型演示调整值。逐面独立UV，PNG内嵌。"
+  ]
+}
